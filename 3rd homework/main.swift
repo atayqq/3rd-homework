@@ -1,11 +1,17 @@
-//
-//  main.swift
-//  3rd homework
-//
-//  Created by atay on 7/1/23.
-//
+//Задание 1
 
-import Foundation
+func simbols(text: String){
+    var totalString = ""
+    var count = 0
+    
+    for _ in text{
+        count += 1
+        
+    }
+    totalString += "В строке - \(count) символов"
+    print (totalString)
+}
+simbols(text: "как дела")
 
-print("Hello, World!")
+//Задание 2
 
